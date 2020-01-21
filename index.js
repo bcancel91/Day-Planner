@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 var date = new Date();
+$("#currentDay").append(date);
 
  var hours = JSON.parse(localStorage.getItem("hours"))
  if(hours===null){
