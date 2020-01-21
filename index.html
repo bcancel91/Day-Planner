@@ -18,8 +18,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Work Day Scheduler</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
   </head>
 
   <body>
@@ -37,47 +38,47 @@
     
       <div class="row">
          <div class="col-2 bg-warning time">9am</div>
-          <textarea  id="input0" class="col-8 bg-light form-control" data-txt="9am"></textarea>
+          <textarea  id="input0" class="col-8  form-control timeColor" data-txt="9am"></textarea>
          <button class="col-2 bg-primary save" data-time="9am" type="button"><i id="saveText0" class="fas fa-save fa-3x "></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">10am</div>
-          <textarea id="input1" class="col-8 bg-light form-control"></textarea>
+          <textarea id="input1" class="col-8  form-control" data-txt="10am"></textarea>
          <button class="col-2 bg-primary save" data-time="10am" type="button"><i id="saveText1" class="fas fa-save fa-3x"></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">11am</div>
-          <textarea id="input2" class="col-8 bg-light form-control"></textarea>
+          <textarea id="input2" class="col-8  form-control" data-txt="11am"></textarea>
          <button class="col-2 bg-primary save" data-time="11am" type="button"><i id="saveText2" class="fas fa-save fa-3x"></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">12pm</div>
-          <textarea id="input3" class="col-8 bg-light form-control"></textarea>
+          <textarea id="input3" class="col-8  form-control" data-txt="12pm"></textarea>
          <button class="col-2 bg-primary save" data-time="12am" type="button"><i id="saveText3" class="fas fa-save fa-3x"></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">1pm</div>
-          <textarea id="input4" class="col-8 bg-light form-control"></textarea>
+          <textarea id="input4" class="col-8  form-control" data-txt="1pm"></textarea>
          <button class="col-2 bg-primary save" data-time="1pm" type="button"><i id="saveText4" class="fas fa-save fa-3x"></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">2pm</div>
-          <textarea id="input5" class="col-8 bg-light form-control"></textarea>
+          <textarea id="input5" class="col-8  form-control" data-txt="2pm"></textarea>
          <button class="col-2 bg-primary save"  data-time="2pm" type="button"><i id="saveText5" class="fas fa-save fa-3x"></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">3pm</div>
-          <textarea id="input6" class="col-8 bg-light form-control"></textarea>
+          <textarea id="input6" class="col-8  form-control" data-txt="3pm"></textarea>
          <button class="col-2 bg-primary save" data-time="3pm" type="button"><i id="saveText6" class="fas fa-save fa-3x"></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">4pm</div>
-          <textarea id="input7"class="col-8 bg-light form-control"></textarea>
+          <textarea id="input7"class="col-8  form-control" data-txt="4pm"></textarea>
          <button class="col-2 bg-primary save" data-time="4pm" type="button"><i id="saveText7" class="fas fa-save fa-3x"></i></button>
     </div>
     <div class="row">
         <div class="col-2 bg-warning time">5pm</div>
-          <textarea id="input8" class="col-8 bg-light form-control"></textarea>
+          <textarea id="input8" class="col-8  form-control" data-txt="5pm"></textarea>
          <button class="col-2 bg-primary save" data-time="5pm" type="button"><i id="saveText8" class="fas fa-save fa-3x"></i></button>
     </div>
       
@@ -100,7 +101,6 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
